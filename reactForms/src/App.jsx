@@ -4,6 +4,7 @@ import ShoppingList from "./components/ShoppingList";
 import ShoppingListForm from "./components/ShoppingListForm";
 import SignupForm from "./components/SignupForm";
 import UsernameForm from "./components/UsernameForm";
+import ValidatedShoppingListForm from "./components/ValidatedShoppingListForm";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       {/* <UsernameForm /> */}
       {/* <SignupForm /> */}
       {/* <BetterSignup /> */}
-      {/* <ShoppingListForm /> */}
+      {/* <ValidatedShoppingListForm /> */}
       <ShoppingList />
     </>
   );
